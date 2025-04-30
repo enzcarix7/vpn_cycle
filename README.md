@@ -57,6 +57,8 @@ python ipxvpn_rotation.py
 The script will cycle through your .ovpn files, connect to the VPN, check the public IP address, and disconnect every 15 seconds.
 
 ### Notes
+```
 • Sudo Permissions: The script uses sudo to execute OpenVPN commands. Make sure you have appropriate permissions or you may need to adjust the script to work without sudo depending on your environment.
 • Security: Do not store sensitive credentials (e.g., passwords) in the script in plain text in production environments. Consider using environment variables or secure vaults to manage them.
 • OpenVPN: Ensure OpenVPN is running on your system and properly configured.
+```
