@@ -39,7 +39,10 @@ sudo apt-get install openvpn
 ```
 brew install openvpn
 ```
-• For Windows, download and install it.
+• For Windows, download and install here:
+```
+https://openvpn.net/community-downloads/
+```
 
 ### How It Works
 1. Cycle Through VPN Configurations: The script looks for .ovpn files in the specified folder, picks one at random, and starts the VPN connection using OpenVPN.
