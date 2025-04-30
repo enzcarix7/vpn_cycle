@@ -1,8 +1,8 @@
-### VPN Cycling Script
+### VPN/IP Rotation
 
 This Python script automatically cycles through different VPN configurations stored in .ovpn files, connects to them for a specified time, and then disconnects. It also checks your public IP address after each connection to confirm that the VPN is working.
 
-## # Requirements
+### Requirements
 ```
 • Python 3.x
 • The requests library (for getting public IP)
